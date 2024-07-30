@@ -1,0 +1,5 @@
+react-router-dom is used for navigation.
+react-hot-toast to show some toasts.
+react-icons for some icons.
+
+Browser Router is wrapped around App so that App has access to every component coming from it.
