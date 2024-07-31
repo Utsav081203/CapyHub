@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
-
+import { Toaster } from 'react-hot-toast';
 import HomePage from './pages/HomePage.jsx';
 import LoginPage from './pages/LoginPage.jsx';
 import SignUpPage from './pages/SignUpPage.jsx';
@@ -25,6 +25,7 @@ function App() {
         </Routes>
         {/* <Footer>Footer</Footer> */}
         {/* Sidebar and Footer will be aside every page */}
+        <Toaster />
       </div>
     </div>
     </>
