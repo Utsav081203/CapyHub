@@ -32,3 +32,11 @@ body {
 
 /* The track is the background area of the scrollbar. It is the fixed part of the scrollbar that remains stationary while the content scrolls within a container. */
 /* The thumb is the draggable part of the scrollbar, commonly referred to as the "scroll handle." It is the element that users interact with when they want to scroll through content manually. */
+
+@layer components {
+	.bg-glass{
+		@apply bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 
+		hover:bg-gray-600/10 border border-gray-800 text-white;
+	}
+}
+/* making custom tailwind css classes */
